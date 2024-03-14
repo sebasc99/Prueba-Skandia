@@ -8,6 +8,8 @@ import { CardsModel } from './models/cards.model';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+  title = 'prueba-skandia';
+  
   constructor(private apiService: ApiService) { }
 
   display: Boolean = false;

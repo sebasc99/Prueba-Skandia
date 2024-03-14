@@ -1,27 +1,28 @@
-# PruebaSkandia
+## Prueba Skandia
+Este proyecto ha sido desarrollado utilizando Angular CLI versión 17.2.3.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+## Ejecución del Servidor
+Para ejecutar el proyecto, simplemente use el comando `ng serve`. Luego, puede navegar a http://localhost:4200/ en su navegador. La aplicación se recargará automáticamente cada vez que se realice una modificación en algún archivo.
 
-## Development server
+## Construcción
+Si desea construir el proyecto, ejecute `ng build`. Todos los archivos resultantes se almacenarán en el directorio dist/.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Pruebas Unitarias
+Para ejecutar las pruebas unitarias utilizando Karma, utilice el comando `ng test`.
 
-## Code scaffolding
+## Arquitectura del Proyecto
+Dentro del directorio src, encontrará los siguientes directorios:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* app:
+    - components: Contiene los componentes globales como el drawer, footer, navbar y sidebar.
+    - models: Contiene los modelos correspondientes a las respuestas del API.
+    - services\api: Aquí se encuentran los servicios dedicados para realizar solicitudes HTTP.
 
-## Build
+Los archivos dentro del directorio app contienen el esquema general de la aplicación.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* assets:
+    - ico: Contiene los iconos necesarios para el diseño de la aplicación.
 
-## Running unit tests
+* environments: Este directorio contiene el archivo donde se declara el endpoint del API que se va a consumir.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este README.md proporciona una visión general del proyecto y guía sobre cómo ejecutar, construir y probar la aplicación.
