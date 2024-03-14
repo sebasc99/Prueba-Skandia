@@ -1,9 +1,11 @@
-.drawer {
-    z-index: 1;
+.sidebar {
+    z-index: 99;
     position: absolute;
     width: 50px;
     background-color: #E2E2E2;
-    height: 90%;
+    height: 100%;
+    position: fixed;
+    margin-top: 90px;
 }
 
 .item {
@@ -20,4 +22,10 @@
 .selected-icon {
     cursor: pointer;
     background-color: transparent;
+}
+
+@media (max-width: 900px) {
+    .sidebar {
+        margin-top: 250px;
+    }
 }

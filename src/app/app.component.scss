@@ -1,8 +1,8 @@
 .container {
-    width: 100%;
+    width: calc(100% - 50px);
     background: url('../assets/ico/background-light.png') center;
     background-size: cover;
-    padding: 20px 0px;
+    padding: 110px 0px 20px 50px;
 }
 
 .img-right {
@@ -58,7 +58,7 @@ h3 {
     box-shadow: 0px 0px 6px #00000029;
     border-radius: 10px;
     margin: 0 auto;
-    width: 600px;
+    max-width: 600px;
 }
 
 .container-secondary {
@@ -308,4 +308,10 @@ h3 {
     font-size: 14px;
     font-family: "Verdana";
     font-weight: 400;
+}
+
+@media (max-width: 900px) {
+    .container {
+        padding-top: 270px;
+    }
 }

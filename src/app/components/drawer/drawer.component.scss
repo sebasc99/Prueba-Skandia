@@ -3,7 +3,9 @@
     position: absolute;
     width: 230px;
     background-color: #E2E2E2;
-    height: 90%;
+    height: 100%;
+    position: fixed;
+    margin-top: 90px;
 }
 
 .item {
@@ -28,4 +30,10 @@
 .selected-icon {
     background-color: transparent;
     padding: 0px 20px;
+}
+
+@media (max-width: 900px) {
+    .drawer {
+        margin-top: 250px;
+    }
 }
