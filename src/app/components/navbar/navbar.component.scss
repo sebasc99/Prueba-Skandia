@@ -39,11 +39,15 @@ footer {
 
 .right {
     display: flex;
+    align-items: center;
     margin-right: 100px;
 }
 
 .right div {
-    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 10px;
 }
 
 .left {

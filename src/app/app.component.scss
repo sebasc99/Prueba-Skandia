@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    background: url('../assets/ico/background.png') center;
+    background: url('../assets/ico/background-light.png') center;
     background-size: cover;
     padding: 20px 0px;
 }
@@ -16,7 +16,7 @@
 }
 
 .home {
-    color: #000000;
+    color: #FFFFFF;
     margin-left: 150px;
     font-size: 12px;
     font-family: "Verdana";
@@ -161,6 +161,7 @@ h3 {
 }
 
 .big-text {
+    color: #FFFFFF;
     font-size: 25px;
     font-family: "Montserrat";
     font-weight: bold;
@@ -168,6 +169,7 @@ h3 {
 }
 
 .small-text {
+    color: #FFFFFF;
     font-size: 16px;
     font-family: "Montserrat";
     font-weight: 400;
