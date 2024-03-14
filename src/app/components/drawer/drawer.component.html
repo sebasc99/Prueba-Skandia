@@ -1,0 +1,8 @@
+<div class="drawer" *ngIf="display">
+    <ng-container *ngFor="let item of listOption, let i = index">
+        <div class="item" [ngClass]="{'selected': itemSelected == i}" (click)="emitValue()">
+            <img class="img" [ngClass]="{'selected-icon': itemSelected == i}" [src]="item.icon" [alt]="item.icon">
+            {{item.name}}
+        </div>
+    </ng-container>
+</div>

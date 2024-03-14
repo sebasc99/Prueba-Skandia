@@ -1,0 +1,70 @@
+footer {
+    background-color: #ffffff; /* Ajusta el color de fondo según sea necesario */
+    box-shadow: 0px 0px 6px #00000029;
+    padding: 50px; /* Ajusta el espacio interno según sea necesario */
+}
+
+/* Resto de estilos del footer */
+.container-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: #3F3F3F;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info span {
+    font-size: 14px;
+    font-family: "Verdana";
+    font-weight: 400;
+}
+
+.offices {
+    font-size: 14px;
+    font-family: "Verdana";
+    font-weight: bold;
+}
+
+.conditions {
+    display: flex;
+    flex-direction: column;
+}
+
+.conditions a {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: "Verdana";
+    font-weight: 400;
+    color: #3F3F3F;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.social img {
+    padding: 0px 20px;
+}
+
+.logo {
+    padding: 0px 0px 30px;
+}
+
+.copy {
+    padding-bottom: 15px;
+}
+
+.green {
+    font-size: 14px;
+    font-family: "Verdana";
+    font-weight: bold;
+    color: #00C83C;
+    background-color: transparent;
+}

@@ -1,0 +1,77 @@
+<app-navbar [display]="display" (valueEmitted)="visualizeDrawer($event)"></app-navbar>
+<app-drawer [display]="display" (valueEmitted)="visualizeDrawer($event)"></app-drawer>
+<app-sidebar [display]="display" (valueEmitted)="visualizeDrawer($event)"></app-sidebar>
+
+<div class="container">
+    <a class="home" href=""><img class="img-right" src="assets/ico/home.svg">Ir al inicio</a>
+    
+    <div class="container-title">
+        <span class="big-text">¡Tu objetivo ha sido agregado exitosamente!</span>
+        <span class="small-text">¡Te hemos enviado un correo con la notificación!</span>
+    </div>
+
+    <div class="container-main">
+        <div class="container-secondary">
+            <div class="container-description">
+                <div class="description-1">
+                    <span class="text-1">Conocer mi sobrino</span>
+                    <span class="text-2">Categoría: Bienestar</span>
+                </div>
+                <div class="description-2">
+                    <a href="" class="green">Revisar objetivo</a>
+                </div>
+            </div>
+            <br>
+            <div class="container-info">
+                <div class="info">
+                    <span class="title-info">En esta fecha:</span>
+                    <span class="bg-blue">Diciembre/2022</span>
+                </div>
+                <div class="info">
+                    <span class="title-info">Lograrás:</span>
+                    <span class="bg-yellow">$6.000.000</span>
+                </div>
+                <div class="info">
+                    <span class="title-info"><img class="img-right" src="assets/ico/star.svg">Ya cuentas con:</span>
+                    <span class="bg-green">$0</span>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <a href="" class="green"><img class="img-right" src="assets/ico/green-check.svg">¡Asocia productos para monitorear su progreso!</a>
+            <img class="icon" src="assets/ico/island.png">
+        </div>
+    </div>
+
+    <div class="container-text">
+        <span class="big-description">¡Vamos por esos <span class="orange">$6.000.000</span> para <span class="orange">Conocer mi sobrino</span>!</span>
+        <span class="small-description-1">¡A través de tus productos y nuestros rendimientos podremos lograrlo!</span>
+        <span class="small-description-2">Asocia tus productos o adquiere uno nuevo. <img class="img-left" src="assets/ico/help-green.svg"></span>
+    </div>
+
+    <div class="container-slider">
+        <button class="scroll-button" (click)="scrollLeft()"><img src="assets/ico/arrow-green.svg"></button>
+        <div id="item-container" class="item-container">
+            <div *ngFor="let item of cards.listCard" class="item">
+                <div class="container-check">
+                    <div class="check"></div>
+                </div>
+                <span class="title-balance">{{item.nameProduct}}</span>
+                <span class="number-product">#{{item.numberProduct}}</span>
+                <div class="divider"></div>
+                <span class="title-balance">Tu ahorro actual:</span>
+                <span class="green">{{item.balanceProduct | currency:'USD':'symbol':'1.0-0' }}</span>
+                <div class="detail-product">
+                    <span>{{item.detaildProduct}}</span>
+                </div>
+            </div>
+        </div>
+        <button class="scroll-button" (click)="scrollRight()"><img src="assets/ico/arrow-green.svg"></button>
+    </div>
+
+    <div class="container-button">
+        <button class="button-text">ASOCIAR A OBJETIVO</button>
+    </div>
+</div>
+
+<app-footer></app-footer>

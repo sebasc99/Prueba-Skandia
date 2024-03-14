@@ -1,0 +1,305 @@
+.container {
+    width: 100%;
+    background: url('../assets/ico/background.png') center;
+    background-size: cover;
+    padding: 20px 0px;
+}
+
+.img-right {
+    margin-right: 10px;
+}
+
+.img-left {
+    margin-left: 10px;
+}
+
+.home {
+    color: black;
+    margin-left: 150px;
+    font-size: 12px;
+    font-family: "Verdana";
+    font-weight: bold;
+}
+
+.container h1,
+h3 {
+    text-align: center;
+}
+
+.container-title {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-main {
+    background-color: white;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.container-secondary {
+    padding: 20px;
+}
+
+.container-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-1 .text-1 {
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.description-1 .text-2 {
+    font-size: 12px;
+    font-family: "Verdana";
+    font-weight: bold;
+}
+
+.description-2 {
+    margin-left: auto;
+}
+
+.description-2 a {
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.container-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: #3F3F3F;
+    text-align: center;
+}
+
+.bg-blue {
+    background-color: #A5D7E1;
+    padding: 5px;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.bg-yellow {
+    background-color: #FECD72;
+    padding: 5px;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.bg-green {
+    background-color: #95DBB7;
+    padding: 5px;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.green {
+    font-weight: bold;
+    color: #00C83C;
+    background-color: transparent;
+}
+
+.orange {
+    color: #FE9200;
+}
+
+.button-text {
+    padding: 20px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    background-color: #E2E2E2;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.big-text {
+    font-size: 25px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.small-text {
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.big-description {
+    font-size: 25px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.small-description-1 {
+    font-size: 16px;
+    font-family: "Verdana";
+    font-weight: 400;
+}
+
+.small-description-2 {
+    font-size: 16px;
+    font-family: "Verdana";
+    font-weight: bold;
+}
+
+.container-slider {
+    margin: 20px 70px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3F3F3F;
+}
+
+.item-container {
+    width: calc(100% - 160px); /* Restar el ancho de los botones */
+    display: flex;
+    overflow-x: hidden; /* Oculta el scroll horizontal por defecto */
+    white-space: nowrap;
+    border: none;
+    padding: 0px 0px;
+    position: relative;
+    margin: 0 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    /* Ajusta el ancho de tus ítems según sea necesario */
+    background-color: white;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 15px;
+}
+
+.scroll-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.scroll-button:focus {
+    outline: none;
+}
+
+.divider {
+    margin: 0px 10px;
+    background-color: #3F3F3F;
+    width: 90%;
+    height: 1px;
+    border-radius: 20px;
+    margin: 15px 0px;
+}
+
+.detail-product {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #EDEDED;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Verdana";
+    font-weight: bold;
+}
+
+.title-balance {
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.number-product {
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.item .green {
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.container-check {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.check {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #00C83C;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.image {
+    display: flex;
+    margin-left: 20px;
+}
+
+.image a {
+    margin-top: 40px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.icon {
+    margin-left: auto;
+}
+
+.title-info {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: "Verdana";
+    font-weight: 400;
+}

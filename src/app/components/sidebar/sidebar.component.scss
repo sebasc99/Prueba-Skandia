@@ -1,0 +1,28 @@
+.drawer {
+    z-index: 1;
+    position: absolute;
+    width: 50px;
+    background-color: #E2E2E2;
+    height: 90%;
+}
+
+.item {
+    color: black;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.selected {
+    background-color: #00C83C;
+    color: white;
+}
+
+.img {
+    padding: 0px 10px;
+}
+
+.selected-icon {
+    background-color: transparent;
+    padding: 0px 10px;
+}
