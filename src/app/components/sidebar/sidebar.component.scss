@@ -10,7 +10,7 @@
     color: black;
     min-height: 50px;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .selected {
@@ -18,11 +18,7 @@
     color: white;
 }
 
-.img {
-    padding: 0px 10px;
-}
-
 .selected-icon {
+    cursor: pointer;
     background-color: transparent;
-    padding: 0px 10px;
 }

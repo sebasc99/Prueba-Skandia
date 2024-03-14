@@ -29,6 +29,14 @@ footer {
     align-items: center;
 }
 
+.help-text {
+    display: none;
+}
+
+.container-help:hover .help-text {
+    display: flex;
+}
+
 .right {
     display: flex;
     margin-right: 100px;
@@ -50,6 +58,7 @@ footer {
 }
 
 .logo {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,9 +67,8 @@ footer {
 .divider {
     margin: 0px 10px;
     background-color: #3F3F3F;
-    width: 5px;
+    width: 4px;
     height: 30px;
-    border-radius: 20px;
 }
 
 .ico {
@@ -71,6 +79,7 @@ footer {
     width: 40px;
     margin-right: 90px;
     color: #00C83C;
+    cursor: pointer;
 }
 
 .container-burger {
@@ -83,8 +92,22 @@ footer {
     justify-content: space-between;
 }
 
-span {
+.container-logo span {
     font-size: 18px;
     font-family: "Montserrat";
     font-weight: 600;
+}
+
+.container-help img {
+    cursor: pointer;
+}
+
+.container-help a {
+    width: 50px;
+    font-size: 12px;
+    font-family: "Verdana";
+    font-weight: bold;
+    color: #00C83C;
+    background-color: transparent;
+    margin-left: 10px;
 }

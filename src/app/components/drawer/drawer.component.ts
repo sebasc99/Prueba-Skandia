@@ -17,24 +17,28 @@ export class DrawerComponent {
   itemSelected = 0;
   listOption = [
     {
-      "name": "Name",
-      "icon": "assets/ico/happy-face-small.svg"
+      "name": "Inicio",
+      "icon": "assets/ico/home-light.svg"
     },
     {
-      "name": "Name",
-      "icon": "assets/ico/happy-face-small.svg"
+      "name": "Contratos",
+      "icon": "assets/ico/paper.svg"
     },
     {
-      "name": "Name",
-      "icon": "assets/ico/happy-face-small.svg"
+      "name": "Acciones",
+      "icon": "assets/ico/tool.svg"
     },
     {
-      "name": "Name",
-      "icon": "assets/ico/happy-face-small.svg"
+      "name": "Objetivos",
+      "icon": "assets/ico/star-light.svg"
     },
     {
-      "name": "Name",
-      "icon": "assets/ico/happy-face-small.svg"
+      "name": "Herramientas",
+      "icon": "assets/ico/money.svg"
     },
+    {
+      "name": "Servicio al cliente",
+      "icon": "assets/ico/talk.svg"
+    }
   ]
 }
