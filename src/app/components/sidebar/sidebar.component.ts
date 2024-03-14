@@ -9,6 +9,7 @@ export class SidebarComponent {
   @Input() display: Boolean = false;
   @Output() valueEmitted = new EventEmitter<Boolean>();
   
+  // Funcion para emitir el valor y determinar si se muestra o no el drawer
   emitValue() {
     this.display = !this.display;
     this.valueEmitted.emit(this.display);
